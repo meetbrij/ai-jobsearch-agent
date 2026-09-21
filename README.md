@@ -24,9 +24,14 @@ This project demonstrates how to build search agents using LangChain's `create_a
    TAVILY_API_KEY=your_tavily_key
    ```
 
-3. Run the agent:
+3. Set up virtual environment:
    ```bash
-   uv run main.py
+   source .venv/bin/activate
+   ```
+
+4. Run the agent:
+   ```bash
+   streamlit run main.py
    ```
 
 ## Example Query
